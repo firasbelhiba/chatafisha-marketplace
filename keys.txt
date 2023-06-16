@@ -10,9 +10,14 @@ method urge plastic prevent absorb pyramid broccoli hotel advice barely melt inj
 
 
 1/ cargo build --target wasm32-unknown-unknown --release
-2/ near deploy --wasmFile target/wasm32-unknown-unknown/release/chatafishta_marketplace.wasm --accountId chatafishta_marketplace.testnet
+2/ near deploy --wasmFile target/wasm32-unknown-unknown/release/chatafishta_marketplace.wasm --initFunction new --initArgs '{}' --accountId chatafishta_marketplace.testnet
+2- or/ near deploy --wasmFile target/wasm32-unknown-unknown/release/chatafishta_marketplace.wasm --accountId chatafishta_marketplace.testnet
+
+3 - or/ near call chatafishta_marketplace.testnet new --accountId chatafishta_marketplace.testnet
+
 https://explorer.testnet.near.org/transactions/AnYsv77kUD8MgM49MsANQNP6kPY5GJiBy72DR22kiXGc
 Transaction Id AnYsv77kUD8MgM49MsANQNP6kPY5GJiBy72DR22kiXGc
+
 3/ near call chatafishta_marketplace.testnet mint_nft '{"metadata":{"student_name":"Alice", "image":"https://iex-website.s3.amazonaws.com/images/articles/foundation/2015/12-22-cleaning-day-tanzania-1.jpg", "description":"Recycled 10kg of plastic", "plastic_kg":10, "plastic_type":"PET", "area_location":"San Francisco"}}' --accountId chatafisha_test.testnet
 
 
