@@ -1,0 +1,1 @@
+/media/firas/Windows/Users/Firas/Documents/Workhole/chatafisha/chataficha_marketplace/target/wasm32-unknown-unknown/release/libchatafishta_marketplace.rlib: /media/firas/Windows/Users/Firas/Documents/Workhole/chatafisha/chataficha_marketplace/src/lib.rs
